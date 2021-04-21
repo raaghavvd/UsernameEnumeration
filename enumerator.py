@@ -21,7 +21,7 @@ with open('error_msgs.txt') as f:
 
 #Cleaning the msg_database and converting the text in lower case.
 msg_database=[re.sub('[^A-Za-z0-9]+', '', mystring.lower()) for mystring in msg_database]
-print(msg_database)
+#print(msg_database)
 
 
 with open('msg2.txt') as f:
@@ -29,7 +29,7 @@ with open('msg2.txt') as f:
 
 
 account_not_exist_msg=[re.sub('[^A-Za-z0-9]+', '', mystring.lower()) for mystring in account_not_exist_msg]
-print(account_not_exist_msg)
+#print(account_not_exist_msg)
 
 
 
@@ -58,7 +58,7 @@ def my_proxy(PROXY_HOST,PROXY_PORT):
     fp.update_preferences()
     options = Options()
     options.headless = True
-    return webdriver.Firefox(options=options, firefox_profile=fp,executable_path=GeckoDriverManager().install())
+    return webdriver.Firefox(options=options, firefox_profile=fp)
 
 
 
@@ -265,7 +265,7 @@ def runProgram(user,link):
     elif('techcrunch.com' in link):
         elem.send_keys(Keys.TAB)
     elif('indeed.com' in link):
-        print('indeed')
+        # print('indeed')
         elem.send_keys(Keys.TAB)
     elif('zippyshare.com' in link):
         elem.send_keys(Keys.TAB)
@@ -305,7 +305,7 @@ def runProgram(user,link):
 
 if __name__ == "__main__":
     if(len(sys.argv)!=4):
-        print("Please use the tool as for example -c 'python3 enumerator2.py -P -email tor'")
+        print("Please use the tool as for example -c 'python3 enumerator.py -P -email tor'")
         sys.exit(0)
 
 
@@ -342,7 +342,8 @@ if __name__ == "__main__":
             if sys.argv[3]=='tor':
                 print('tor is used')
 
-                if(f/2==0):
+                if(f%2==0):
+                    print("Hi")
                     renew_tor_ip()
             # else:
                 # continue
@@ -364,7 +365,7 @@ if __name__ == "__main__":
                 print("enter valid argument.")
                 sys.exit(0)
             f+=1
-            print(f)
+            # print(f)
         print("The current Link crawled: ",l);
         print("The accounts", set(accounts));
 

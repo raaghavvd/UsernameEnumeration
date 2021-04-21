@@ -20,13 +20,13 @@ RUN apt install python3 python3-pip -y
 # RUN apt install python3-pip -y
 # RUN python3 -y
 RUN pip3 install selenium bs4 requests regex stem pysocks webdriver-manager
-# RUN pip3 install bs4 
+# RUN pip3 install bs4
 # RUN pip3 install requests
 # RUN pip3 install regex
 RUN /bin/bash -c 'torpass=$(tor --hash-password "HkB3IDWD#143") \
 printf "HashedControlPassword $torpass\nControlPort 9051\n" | tee -a /etc/tor/torrc'
 #RUN systemctl restart tor
-
+RUN tor&
 
 WORKDIR /raaghavv
 ADD ./TorCheck.py check.py
@@ -34,7 +34,7 @@ ADD ./msg2.txt msg2.txt
 ADD ./newlinks.txt newlinks.txt
 ADD ./emailid.txt emailID.txt
 ADD ./usernames.txt usernames.txt
-ADD ./enumerator2.py enumerator2.py
+ADD ./enumerator.py enumerator.py
 ADD ./error_msgs.txt error_msgs.txt
 
 
