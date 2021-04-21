@@ -343,7 +343,6 @@ if __name__ == "__main__":
                 print('tor is used')
 
                 if(f%2==0):
-                    print("Hi")
                     renew_tor_ip()
             # else:
                 # continue
