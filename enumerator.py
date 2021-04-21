@@ -21,7 +21,7 @@ with open('error_msgs.txt') as f:
 
 #Cleaning the msg_database and converting the text in lower case.
 msg_database=[re.sub('[^A-Za-z0-9]+', '', mystring.lower()) for mystring in msg_database]
-#print(msg_database)
+# print(msg_database)
 
 
 with open('msg2.txt') as f:
@@ -29,7 +29,6 @@ with open('msg2.txt') as f:
 
 
 account_not_exist_msg=[re.sub('[^A-Za-z0-9]+', '', mystring.lower()) for mystring in account_not_exist_msg]
-#print(account_not_exist_msg)
 
 
 
@@ -58,7 +57,7 @@ def my_proxy(PROXY_HOST,PROXY_PORT):
     fp.update_preferences()
     options = Options()
     options.headless = True
-    return webdriver.Firefox(options=options, firefox_profile=fp)
+    return webdriver.Firefox(options=options, firefox_profile=fp,executable_path=GeckoDriverManager().install())
 
 
 
