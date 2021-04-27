@@ -47,18 +47,22 @@ $ python3 enumerator.py -P -email tor
 Usage:
 $ python3 enumerator.py -P[-NP] -email[-username] [tor]
 
--P or -NP     P denotes to check if the error message indicates the username/email to exist
-                     NP denotes to check if the error message indicates the current username doesn’t exist
+-P or -NP  :   P denotes to check if the error message indicates the username/email to exist
+               
+               NP denotes to check if the error message indicates the current username doesn’t exist
 
--email or -username         email means website takes email id as input
-                                             username means website takes usernames as input
+-email or -username    :     email means website takes email id as input
+                            
+                            username means website takes usernames as input
 
-tor – to run the tool with tor – changes IP addresses [This parameter is optional]
+tor :   to run the tool with tor – changes IP addresses [This parameter is optional]
 
 
 Examples:
 python3 enumerator.py -P -email tor
+
 python3 enumerator.py -P -username
+
 python3 enumerator.py -NP -email
 
 
