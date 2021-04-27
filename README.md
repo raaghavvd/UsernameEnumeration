@@ -1,6 +1,6 @@
 # UsernameEnumeration
 Project for C5770
-**Instructions**:
+# Instructions:
 The following files exist inside the docker:
 check.py     enumerator.py     emailID.txt     usernames.txt     newlinks.txt     error_msgs.txt     msg2.txt       
 
@@ -12,7 +12,7 @@ newlinks.txt – Enter the links to be tested in this file
 error_msgs.txt – Enter the error messages related to the runProgram function (-P option)
 msg2.txt - Enter the error messages related to the accountNotPresent function (-NP option)
 
-This tool currently supports 50 websites. The complete website list is listed in the main_database excel file. 
+This tool currently supports 50 websites. The complete website list is listed in the vulnerable_database excel file. 
 1.	Choose a website to perform the enumeration from the excel file.
 2.	Copy the corresponding link from the excel file to newlinks.txt file
 3.	Enter the email ids or usernames to be tested in emailID.txt or usernames.txt files, respectively.
