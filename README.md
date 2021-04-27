@@ -28,9 +28,11 @@ This tool currently supports 50 websites. The complete website list is listed in
 
 Installation:
 # Clone the UsernameEnumeration Repository:
+
 $ git clone https://github.com/raaghavvd/UsernameEnumeration.git 
 
 #Go to the UsernameEnumeration directory:
+
 $ cd UsernameEnumeration
 
 # Run the script.sh file to build the docker image and run this as a container :
@@ -38,6 +40,7 @@ $ ./script.sh
 
 # Start TOR by using the following command:
 $ tor &
+
 Press the ENTER key when it says “Bootstrapped 100% (done)”
 
 # Run the enumerator tool:
@@ -50,7 +53,7 @@ $ python3 enumerator.py -P[-NP] -email[-username] [tor]
 -P or -NP  :   P denotes to check if the error message indicates the username/email to exist    
                NP denotes to check if the error message indicates the current username doesn’t exist
 
--email or -username    :     email means website takes email id as input
+-email or -username    :     email means website takes email id as input;
                              username means website takes usernames as input
 
 tor :   to run the tool with tor – changes IP addresses [This parameter is optional]
