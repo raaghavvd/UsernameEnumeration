@@ -1,10 +1,8 @@
 from selenium.webdriver.common.keys import Keys
 from time import sleep,time
-# from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.firefox.options import Options
 from webdriver_manager.firefox import GeckoDriverManager
 
-# from selenium.webdriver.chrome.options import Options
 from selenium import webdriver
 import requests
 import time
@@ -74,6 +72,7 @@ def renew_tor_ip():
 def accountNotPresentLogin(user,link):
     browser = my_proxy("127.0.0.1", 9050)
     browser.get(str(link))
+    flag=False
 
     sleep(3)
 
@@ -290,6 +289,7 @@ def runProgram(user,link):
     content = list(soup.stripped_strings)
     #Cleaning the html text and converting the text in lower case.
     content=[re.sub('[^A-Za-z0-9]+', '', data.lower()) for data in content]
+    print(content)
 
     for x in content:
         # print("Enumerating")
@@ -304,7 +304,7 @@ def runProgram(user,link):
 
 if __name__ == "__main__":
     if(len(sys.argv)!=4):
-        print("Please use the tool as for example -c 'python3 enumerator.py -P -email tor'")
+        print("Please use the tool as for example -c 'python3 enumerator.py -P -[email]/[username] [tor]/[notor]'")
         sys.exit(0)
 
 

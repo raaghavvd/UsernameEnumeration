@@ -177,3 +177,228 @@ Exiting due to channel error.
 [GFX1-]: Receive IPC close with reason=AbnormalShutdown
 Exiting due to channel error.
 Exiting due to channel error.
+1619659532805	geckodriver	INFO	Listening on 127.0.0.1:54392
+1619659533697	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/2n/fcpjb5192pggds1xn7bv9qbm0000gn/T/rust_mozprofileFpVarI"
+1619659534453	Marionette	INFO	Marionette enabled
+2021-04-28 21:25:36.144 firefox-bin[4485:190593] Warning: Expected min height of view: (<NSButton: 0x131db7c00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-04-28 21:25:36.145 firefox-bin[4485:190593] Warning: Expected min height of view: (<NSButton: 0x13d314400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-04-28 21:25:36.145 firefox-bin[4485:190593] Warning: Expected min height of view: (<NSButton: 0x13d315800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-04-28 21:25:36.146 firefox-bin[4485:190593] Warning: Expected min height of view: (<NSButton: 0x13d315c00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-04-28 21:25:36.147 firefox-bin[4485:190593] Warning: Expected min height of view: (<NSButton: 0x13d317400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-04-28 21:25:36.147 firefox-bin[4485:190593] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x13d31fc00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-04-28 21:25:36.148 firefox-bin[4485:190593] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x13d649000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1619659537301	Marionette	INFO	Listening on port 54403
+1619659537345	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 194: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]'[JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+1619659575258	Marionette	INFO	Stopped listening on port 54403
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1619659576436	geckodriver	INFO	Listening on 127.0.0.1:54663
+1619659577454	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/2n/fcpjb5192pggds1xn7bv9qbm0000gn/T/rust_mozprofile34k7Da"
+1619659578079	Marionette	INFO	Marionette enabled
+2021-04-28 21:26:19.370 firefox-bin[4492:191612] Warning: Expected min height of view: (<NSButton: 0x1264d2800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-04-28 21:26:19.371 firefox-bin[4492:191612] Warning: Expected min height of view: (<NSButton: 0x13151e400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-04-28 21:26:19.371 firefox-bin[4492:191612] Warning: Expected min height of view: (<NSButton: 0x131520400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-04-28 21:26:19.372 firefox-bin[4492:191612] Warning: Expected min height of view: (<NSButton: 0x131524800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-04-28 21:26:19.373 firefox-bin[4492:191612] Warning: Expected min height of view: (<NSButton: 0x131528000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-04-28 21:26:19.373 firefox-bin[4492:191612] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x131527c00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-04-28 21:26:19.374 firefox-bin[4492:191612] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x13184a800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1619659580490	Marionette	INFO	Listening on port 54674
+1619659580579	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 194: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]'[JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+1619659612177	Marionette	INFO	Stopped listening on port 54674
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1619659613401	geckodriver	INFO	Listening on 127.0.0.1:54912
+1619659652328	geckodriver	INFO	Listening on 127.0.0.1:54944
+1619659653345	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/2n/fcpjb5192pggds1xn7bv9qbm0000gn/T/rust_mozprofileGVYj9V"
+1619659654004	Marionette	INFO	Marionette enabled
+2021-04-28 21:27:35.291 firefox-bin[4518:192953] Warning: Expected min height of view: (<NSButton: 0x129a27800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-04-28 21:27:35.291 firefox-bin[4518:192953] Warning: Expected min height of view: (<NSButton: 0x127e56400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-04-28 21:27:35.292 firefox-bin[4518:192953] Warning: Expected min height of view: (<NSButton: 0x134936400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-04-28 21:27:35.293 firefox-bin[4518:192953] Warning: Expected min height of view: (<NSButton: 0x134931000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-04-28 21:27:35.293 firefox-bin[4518:192953] Warning: Expected min height of view: (<NSButton: 0x134931400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-04-28 21:27:35.294 firefox-bin[4518:192953] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x134933800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-04-28 21:27:35.295 firefox-bin[4518:192953] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x134ca6000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1619659656505	Marionette	INFO	Listening on port 54955
+1619659656551	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 194: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]'[JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+1619659681752	Marionette	INFO	Stopped listening on port 54955
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1619659708257	geckodriver	INFO	Listening on 127.0.0.1:55124
+1619659709271	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/2n/fcpjb5192pggds1xn7bv9qbm0000gn/T/rust_mozprofileaWjxAJ"
+1619659709951	Marionette	INFO	Marionette enabled
+2021-04-28 21:28:31.196 firefox-bin[4533:194081] Warning: Expected min height of view: (<NSButton: 0x137816800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-04-28 21:28:31.197 firefox-bin[4533:194081] Warning: Expected min height of view: (<NSButton: 0x13781c800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-04-28 21:28:31.197 firefox-bin[4533:194081] Warning: Expected min height of view: (<NSButton: 0x137822400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-04-28 21:28:31.198 firefox-bin[4533:194081] Warning: Expected min height of view: (<NSButton: 0x137820000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-04-28 21:28:31.199 firefox-bin[4533:194081] Warning: Expected min height of view: (<NSButton: 0x13781e800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-04-28 21:28:31.199 firefox-bin[4533:194081] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x13781c400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-04-28 21:28:31.200 firefox-bin[4533:194081] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x137b50000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1619659712416	Marionette	INFO	Listening on port 55131
+1619659712496	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 194: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]'[JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+1619659751015	Marionette	INFO	Stopped listening on port 55131
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1619659752390	geckodriver	INFO	Listening on 127.0.0.1:55381
+1619659753404	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/2n/fcpjb5192pggds1xn7bv9qbm0000gn/T/rust_mozprofile8bg3vo"
+1619659754048	Marionette	INFO	Marionette enabled
+2021-04-28 21:29:15.282 firefox-bin[4539:194944] Warning: Expected min height of view: (<NSButton: 0x13042f800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-04-28 21:29:15.283 firefox-bin[4539:194944] Warning: Expected min height of view: (<NSButton: 0x13ce1c800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-04-28 21:29:15.284 firefox-bin[4539:194944] Warning: Expected min height of view: (<NSButton: 0x13048fc00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-04-28 21:29:15.285 firefox-bin[4539:194944] Warning: Expected min height of view: (<NSButton: 0x13ce24400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-04-28 21:29:15.286 firefox-bin[4539:194944] Warning: Expected min height of view: (<NSButton: 0x13ce2bc00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-04-28 21:29:15.286 firefox-bin[4539:194944] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x13ce27c00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-04-28 21:29:15.287 firefox-bin[4539:194944] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x13d16ec00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1619659756417	Marionette	INFO	Listening on port 55388
+1619659756507	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 194: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]'[JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+1619659793638	Marionette	INFO	Stopped listening on port 55388
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1619659835799	geckodriver	INFO	Listening on 127.0.0.1:55663
+1619659836810	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/2n/fcpjb5192pggds1xn7bv9qbm0000gn/T/rust_mozprofileQvQTCD"
+*** You are running in headless mode.
+1619659837423	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1619659839208	Marionette	INFO	Listening on port 55670
+1619659839313	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 194: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]'[JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+1619659864151	Marionette	INFO	Stopped listening on port 55670
+1619659865264	geckodriver	INFO	Listening on 127.0.0.1:55821
+1619659866281	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/2n/fcpjb5192pggds1xn7bv9qbm0000gn/T/rust_mozprofile8EoZXd"
+*** You are running in headless mode.
+1619659866799	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1619659869125	Marionette	INFO	Listening on port 55828
+1619659869189	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 194: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]'[JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+1619659893377	Marionette	INFO	Stopped listening on port 55828
+1619660517497	geckodriver	INFO	Listening on 127.0.0.1:56289
+1619660518507	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/2n/fcpjb5192pggds1xn7bv9qbm0000gn/T/rust_mozprofileBmIq7j"
+*** You are running in headless mode.
+1619660519143	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1619660521180	Marionette	INFO	Listening on port 56296
+1619660521230	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://images-na.ssl-images-amazon.com/images/I/71vqZ1F8KbL.js?AUIClients/FWCIMAssets, line 280: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 194: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]'[JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+JavaScript warning: https://images-na.ssl-images-amazon.com/images/I/71vqZ1F8KbL.js?AUIClients/FWCIMAssets, line 280: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+1619660539712	Marionette	INFO	Stopped listening on port 56296
+1619660540823	geckodriver	INFO	Listening on 127.0.0.1:56401
+1619660541833	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/2n/fcpjb5192pggds1xn7bv9qbm0000gn/T/rust_mozprofileUjLKuN"
+*** You are running in headless mode.
+1619660542458	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1619660544287	Marionette	INFO	Listening on port 56408
+1619660544340	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://images-na.ssl-images-amazon.com/images/I/71vqZ1F8KbL.js?AUIClients/FWCIMAssets, line 280: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 194: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]'[JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+JavaScript warning: https://images-na.ssl-images-amazon.com/images/I/71vqZ1F8KbL.js?AUIClients/FWCIMAssets, line 280: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+1619660565809	Marionette	INFO	Stopped listening on port 56408
+1619660581904	geckodriver	INFO	Listening on 127.0.0.1:56535
+1619660582918	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/2n/fcpjb5192pggds1xn7bv9qbm0000gn/T/rust_mozprofileIiqsUs"
+1619660583585	Marionette	INFO	Marionette enabled
+2021-04-28 21:43:04.910 firefox-bin[4744:208119] Warning: Expected min height of view: (<NSButton: 0x128e10800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-04-28 21:43:04.910 firefox-bin[4744:208119] Warning: Expected min height of view: (<NSButton: 0x133d1c800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-04-28 21:43:04.911 firefox-bin[4744:208119] Warning: Expected min height of view: (<NSButton: 0x133d23c00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-04-28 21:43:04.912 firefox-bin[4744:208119] Warning: Expected min height of view: (<NSButton: 0x133d24000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-04-28 21:43:04.912 firefox-bin[4744:208119] Warning: Expected min height of view: (<NSButton: 0x133d1cc00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-04-28 21:43:04.913 firefox-bin[4744:208119] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x133d2a000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-04-28 21:43:04.913 firefox-bin[4744:208119] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x134048400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1619660586065	Marionette	INFO	Listening on port 56542
+1619660586157	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 194: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]'[JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+1619660608902	Marionette	INFO	Stopped listening on port 56542
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1619660610367	geckodriver	INFO	Listening on 127.0.0.1:56657
+1619660611375	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/2n/fcpjb5192pggds1xn7bv9qbm0000gn/T/rust_mozprofileacTVoc"
+1619660612027	Marionette	INFO	Marionette enabled
+2021-04-28 21:43:33.346 firefox-bin[4749:208818] Warning: Expected min height of view: (<NSButton: 0x12b110400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-04-28 21:43:33.347 firefox-bin[4749:208818] Warning: Expected min height of view: (<NSButton: 0x136122800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-04-28 21:43:33.347 firefox-bin[4749:208818] Warning: Expected min height of view: (<NSButton: 0x13611dc00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-04-28 21:43:33.348 firefox-bin[4749:208818] Warning: Expected min height of view: (<NSButton: 0x13611d800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-04-28 21:43:33.349 firefox-bin[4749:208818] Warning: Expected min height of view: (<NSButton: 0x13611e000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-04-28 21:43:33.350 firefox-bin[4749:208818] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x13611d400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-04-28 21:43:33.350 firefox-bin[4749:208818] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x136444400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1619660614438	Marionette	INFO	Listening on port 56664
+1619660614502	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 194: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]'[JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1619660658193	geckodriver	INFO	Listening on 127.0.0.1:56784
+1619660659211	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/2n/fcpjb5192pggds1xn7bv9qbm0000gn/T/rust_mozprofilecdrpT1"
+*** You are running in headless mode.
+1619660659756	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1619660661580	Marionette	INFO	Listening on port 56791
+1619660661610	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://images-na.ssl-images-amazon.com/images/I/71vqZ1F8KbL.js?AUIClients/FWCIMAssets, line 280: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 194: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]'[JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+JavaScript warning: https://images-na.ssl-images-amazon.com/images/I/71vqZ1F8KbL.js?AUIClients/FWCIMAssets, line 280: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+1619660683036	Marionette	INFO	Stopped listening on port 56791
+1619660684450	geckodriver	INFO	Listening on 127.0.0.1:56897
+1619660685465	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/2n/fcpjb5192pggds1xn7bv9qbm0000gn/T/rust_mozprofile9zJ4y2"
+*** You are running in headless mode.
+1619660686053	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1619660688013	Marionette	INFO	Listening on port 56907
+1619660688095	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://images-na.ssl-images-amazon.com/images/I/71vqZ1F8KbL.js?AUIClients/FWCIMAssets, line 280: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 194: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]'[JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+JavaScript warning: https://images-na.ssl-images-amazon.com/images/I/71vqZ1F8KbL.js?AUIClients/FWCIMAssets, line 280: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+1619660711645	Marionette	INFO	Stopped listening on port 56907
