@@ -1,0 +1,100 @@
+import java.io.PrintStream;
+
+public class Prog8
+{
+
+    public Prog8()
+    {
+    }
+
+    public static void main(String args[])
+    {
+        if(args.length != 1)
+        {
+            System.out.println("Usage: java Prog8 <serial code>");
+            System.exit(1);
+        }
+        x x1 = new x(args[0]);
+        x1.d();
+    }
+}
+
+class x
+{
+
+    public x(String s)
+    {
+        g = s;
+    }
+
+    public void d()
+    {
+        boolean flag = false;
+        String s = "";
+        for(int i = 0; i < g.length(); i++)
+            s = s + (new k()).l(g.charAt(i) + (new z()).y());
+
+        if(s.equals((new y()).z()))
+            (new v()).y(1);
+        else
+            (new v()).y(0);
+    }
+
+    private String g;
+}
+
+class k
+{
+
+    public k()
+    {
+    }
+
+    public String l(int i)
+    {
+        return Integer.toHexString(i);
+    }
+}
+
+class z
+{
+
+    public z()
+    {
+    }
+
+    public int y()
+    {
+        return 20;
+    }
+}
+
+class y
+{
+
+    public y()
+    {
+    }
+
+    public String z()
+    {
+        return "5d347e8987883486798a798687793479827b7d82797986797834887c7d87";
+    }
+}
+
+
+class v
+{
+
+    public v()
+    {
+    }
+
+    public void y(int i)
+    {
+        if(i == 1)
+            System.out.println("Yeehaaa! You made it, you got the valid serial code!");
+        else
+            System.out.println("Sorry, wrong serial, you need to try harder...");
+    }
+}
