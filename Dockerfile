@@ -32,7 +32,7 @@ WORKDIR /raaghavv
 ADD ./TorCheck.py check.py
 ADD ./msg2.txt msg2.txt
 ADD ./newlinks.txt newlinks.txt
-ADD ./emailid.txt emailID.txt
+ADD ./emailID.txt emailID.txt
 ADD ./usernames.txt usernames.txt
 ADD ./enumerator.py enumerator.py
 ADD ./error_msgs.txt error_msgs.txt
