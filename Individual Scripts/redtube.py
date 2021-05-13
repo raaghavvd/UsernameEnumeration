@@ -1,16 +1,20 @@
 #  User Enum redtube
-# Very imp: Sleep needs to be present after sending username - send_keys(user) for redtube to work
-
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 from time import sleep
 import extract_html_diff
 
+# Using edge browser
 driver = webdriver.Edge(executable_path='msedgedriver')
 
+# Using Firefox browser
+#driver = webdriver.FirefoxProfile()
+#driver = webdriver.Firefox(driver)
 
 print("The usernames present in redtube are:")
 
+# Place all the Email IDs to test in the for loop as shown below.
+# You can remove all the Email IDs below
 for i in ["batman@gmail.com","ccohen@aol.com", "koyex66140@tlhao86.com", "superman@gmail.com"]:
 
     user = i
@@ -29,3 +33,4 @@ for i in ["batman@gmail.com","ccohen@aol.com", "koyex66140@tlhao86.com", "superm
     if "Email has been taken." in p3:
         print(i)
     sleep(2)
+driver.close()

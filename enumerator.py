@@ -55,7 +55,9 @@ def my_proxy(PROXY_HOST,PROXY_PORT):
     fp.update_preferences()
     options = Options()
     options.headless = True
-    return webdriver.Firefox(options=options, firefox_profile=fp,executable_path=GeckoDriverManager().install())
+    # return webdriver.Firefox(options=options, firefox_profile=fp,executable_path=GeckoDriverManager().install())
+    return webdriver.Firefox(options=options, firefox_profile=fp)
+
 
 
 
@@ -66,10 +68,8 @@ def renew_tor_ip():
 # r=req.get('https://jasonrigden.com')
 # r = session.get('https://jasonrigden.com')
 
-# 'an adobe account with this email address already exists'
-
-
 def accountNotPresentLogin(user,link):
+     
     browser = my_proxy("127.0.0.1", 9050)
     browser.get(str(link))
     flag=False
@@ -289,13 +289,13 @@ def runProgram(user,link):
     content = list(soup.stripped_strings)
     #Cleaning the html text and converting the text in lower case.
     content=[re.sub('[^A-Za-z0-9]+', '', data.lower()) for data in content]
-    print(content)
+    # print(content)
 
     for x in content:
         # print("Enumerating")
         if x in msg_database:
             print("Match found")
-            accounts.append(i);
+            accounts.append(i)
 
 
 

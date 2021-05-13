@@ -1,17 +1,23 @@
-# Amazon Enumneration
-# Previously It wasn't possible as I was filtering on Username NOT present message...
-# CHECKOUT the new message to be filtered .. .maybe extract html diff is needed
+# Amazon Enumeration
+# For a Enumerating a long list of Email Ids, please use the main tool as it has TOR functionality included.
+# This script works fine for checking a few Emails. Amazon blocks requests after multiple attempts.
 
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 from time import sleep
 import extract_html_diff
 
-
+# Using edge browser
 driver = webdriver.Edge(executable_path='msedgedriver')
+
+# Using Firefox browser
+#driver = webdriver.FirefoxProfile()
+#driver = webdriver.Firefox(driver)
+
 print("Usernames present in amazon are: ")
 
-#for i in ["ccohen@aol.com", "keijser@aol.com", "ajohnson@hotmail.com", "rnewman@aol.com", "sfoskett@hotmail.com", "seurat@aol.com", "richard@gmail.com", "punkis@gmail.com", "jadavis@outlook.com", "staffelb@att.net", "pplinux@icloud.com", "lamky@optonline.net", "ccoerhen@aol.com", "keijserqer@aol.com", "ajohneesdson@hotmail.com", "rnewman@aol.com", "sfosksdett@hotmail.com", "seusdrat@aol.com", "richard@gmail.com", "pssunkis@gmail.com", "jadavssis@outlook.com", "stafssfelb@att.net", "pplinsdux@icloud.com", "laamky@optonline.net"]:
+# Place all the Email IDs to test in the for loop as shown below.
+# You can remove all the Email IDs below
 for i in ["ccohen@gmail.com", "asdbaskjdbasdba@gmail.com", "superman@gmail.com", "keijser@yahoo.com", "maryjane@gmail.com", "ajohnson@yahoo.com", "rnewman@gmail.com", "sfoskett@yahoo.com", "seurat@yahoo.com", "richard@gmail.com", "punkis@gmail.com"]:
     user = i
 
@@ -26,3 +32,4 @@ for i in ["ccohen@gmail.com", "asdbaskjdbasdba@gmail.com", "superman@gmail.com",
     if "Change" in p3:
        print(i)
     sleep(3)
+driver.close()

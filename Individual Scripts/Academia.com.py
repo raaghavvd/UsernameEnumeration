@@ -1,13 +1,20 @@
+# User Enum Academia
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 from time import sleep
 import extract_html_diff
 
+# Using edge browser
 driver = webdriver.Edge(executable_path='msedgedriver')
+
+# Using Firefox browser
+#driver = webdriver.FirefoxProfile()
+#driver = webdriver.Firefox(driver)
 
 print("The usernames present in wasPost are:")
 
-#for i in ["BegForMercy", "BraiasjdnkjnAxe", "CrazyMind", "DeathWaasdaish", "DisasterMaster", "ElNaaaino", "EndlessFacepalms", "FreakingOblin", "GhostlyPresence", "GridlockAndKey", "HoofHearted666", "KungFuMonk", "NineTees", "PlzJustDie", "SeekNDestroy", "SinisterChill", "BegqwForMercy", "BasxasdxrainAxe", "Crazy1Mind", "DeatasdasdhWish", "Dis1asterMaster", "EaslNino", "EndlessFaaacepalms", "FrrreakingOblin", "GhossdtlyPreseasnce", "GrisadlockAndKey", "HoofaHearted666", "KsungFuMonk", "NinessTees", "sPlzJustDie", "sSeeksNDestroy", "SssinisddterChill"]:
+# Place all the Email IDs to test in the for loop as shown below.
+# You can remove all the Email IDs below
 for i in ["supeasdasdrman@gmail.com", "yenojam209@shzsedu.com","priyanka@gmail.com", "batman@gmail.com", "michael@gmail.com", "raghavdevgon@yahoo.com"]:
     user = i
 
@@ -26,3 +33,4 @@ for i in ["supeasdasdrman@gmail.com", "yenojam209@shzsedu.com","priyanka@gmail.c
         print(i)
     sleep(2)
 
+driver.close()

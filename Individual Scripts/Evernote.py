@@ -1,15 +1,20 @@
 #User Enum Evernote
-
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 from time import sleep
 import extract_html_diff
 
+# Using edge browser
 driver = webdriver.Edge(executable_path='msedgedriver')
 
+# Using Firefox browser
+#driver = webdriver.FirefoxProfile()
+#driver = webdriver.Firefox(driver)
 
 print("The usernames present in Evernote are:")
 
+# Place all the Email IDs to test in the for loop as shown below.
+# You can remove all the Email IDs below
 for i in ["ccohen@aol.com", "superman@gmail.com", "keijser@aol.com", "maryjane@gmail.com", "ajohnson@hotmail.com", "rnewman@aol.com", "sfoskett@hotmail.com","seurat@aol.com", "richard@gmail.com", "punkis@gmail.com", "jadavis@outlook.com", "staffelb@att.net","pplinux@icloud.com", "lamky@optonline.net", "ccoerhen@aol.com", "keijserqer@aol.com","ajohneesdson@hotmail.com", "rnewman@aol.com", "sfosksdett@hotmail.com", "seusdrat@aol.com","richard@gmail.com", "pssunkis@gmail.com", "jadavssis@outlook.com", "stafssfelb@att.net", "pplinsdux@icloud.com", "laamky@optonline.net"]:
 
     user = i
@@ -27,3 +32,4 @@ for i in ["ccohen@aol.com", "superman@gmail.com", "keijser@aol.com", "maryjane@g
 
     if "This email address is already in use." in p3:
         print(i)
+driver.close()

